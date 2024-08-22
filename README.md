@@ -1,6 +1,6 @@
 # Real-time Intrusion Detection System on Windows
 
-![Uploading 2024-08-2117-09-23-ezgif.com-video-to-gif-converter.gif…]()
+![image](https://github.com/user-attachments/assets/e75c65ff-c318-4f94-bde5-a315265d756c)
 
 
 Overview
