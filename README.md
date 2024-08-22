@@ -1,5 +1,8 @@
 # Real-time Intrusion Detection System on Windows
 
+![Uploading 2024-08-2117-09-23-ezgif.com-video-to-gif-converter.gif…]()
+
+
 Overview
 This project implements a Real-time Intrusion Detection System (IDS) for Windows, leveraging Machine Learning techniques to detect network intrusions. The system uses:
 
