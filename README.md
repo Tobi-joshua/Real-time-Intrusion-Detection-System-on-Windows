@@ -1,39 +1,42 @@
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="Tobijoshua" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
-
-
 # Real-time Intrusion Detection System on Windows
 
-![image](https://github.com/user-attachments/assets/e75c65ff-c318-4f94-bde5-a315265d756c)
+![Intrusion Detection System](https://github.com/user-attachments/assets/e75c65ff-c318-4f94-bde5-a315265d756c)
 
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/Tobijoshua)
 
-Overview
-This project implements a Real-time Intrusion Detection System (IDS) for Windows, leveraging Machine Learning techniques to detect network intrusions. The system uses:
+## 📌 Overview
+This project implements a **Real-time Intrusion Detection System (IDS) for Windows**, leveraging **Machine Learning** techniques to detect network intrusions. The system is designed to monitor network traffic and identify potential security threats using:
 
-Supervised Learning: Random Forest model for identifying known attacks from CICIDS 2018 & SCVIC-APT databases.
-Unsupervised Learning: Autoencoder model for anomaly detection.
-Requirements
-Windows OS
-Python 3.9
-Download Python 3.9 from Python Official Website
-Ensure to select "Add Python 3.9 to PATH" during installation.
-Npcap 1.71
-Download from Npcap Official Website
-Installation and Setup
-Set up Virtual Environment
+- ✅ **Supervised Learning**: Uses a **Random Forest model** to classify known attacks from **CICIDS 2018** and **SCVIC-APT** databases.
+- ✅ **Unsupervised Learning**: Uses an **Autoencoder model** to detect anomalies in network behavior.
+
+## 🚀 Features
+- **Real-time network traffic analysis**
+- **Signature-based detection with supervised learning**
+- **Anomaly detection with unsupervised learning**
+- **User-friendly web interface**
+- **Detailed logging and alert system**
+
+## 🛠️ Requirements
+Before installing and running the IDS, ensure your system meets the following requirements:
+
+### ✅ System Requirements
+- **Windows OS**
+- **Python 3.9**  
+  📥 [Download Python 3.9](https://www.python.org/downloads/)  
+  ⚠️ Ensure you select **"Add Python 3.9 to PATH"** during installation.
+
+- **Npcap 1.71** (for packet capture)  
+  📥 [Download Npcap](https://nmap.org/npcap/)  
+
+### ✅ Python Dependencies
+All required Python packages are listed in `requirements.txt`.
+
+---
+
+## ⚙️ Installation and Setup
+
+### 🔹 Step 1: Set Up a Virtual Environment
 Create a virtual environment:
-- python3.9 -m venv venv
-Activate the virtual environment:
-- ./venv/Scripts/activate
-Install Dependencies
-Install required Python packages:
-- python -m pip install -r requirements.txt
-Running the Program
-Activate Virtual Environment (if not activated):
-- ./venv/Scripts/activate
-Run the Application:
-- python application.py
-Accessing the Web Application
-Open your web browser and navigate to: http://localhost:5000
-Troubleshooting
-Python Installation Issues: Ensure you have administrative privileges and follow the recommended installation parameters.
-Npcap Installation Issues: Follow the instructions provided with the Npcap installer to ensure proper installation and functionality.
+```sh
+python3.9 -m venv venv
