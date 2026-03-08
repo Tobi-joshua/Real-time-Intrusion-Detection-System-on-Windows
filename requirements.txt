@@ -7,4 +7,3 @@ matplotlib
 altair
 pyarrow
 scapy
-st-aggrid
