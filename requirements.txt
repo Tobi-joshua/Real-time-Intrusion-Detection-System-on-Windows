@@ -3,7 +3,7 @@ annotated-doc==0.0.3
 annotated-types==0.7.0
 anyio==4.11.0
 astroid>=2.15.0
-attrs==21.2.0
+attrs>=23.1.0
 bcrypt==3.2.0
 blinker==1.9.0
 cachetools==7.0.3
